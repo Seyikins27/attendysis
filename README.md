@@ -3,6 +3,8 @@ A library to analyse time_log data generated from biometric attendance devices.
 
 Start by importing the LoadCsv class 
 ```python
+from Attendysis import Attendysis
+
 def main():
     data=Attendysis(filename)
     data.head()
